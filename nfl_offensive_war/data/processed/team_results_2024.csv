@@ -1,0 +1,33 @@
+team,conf,division,wins,losses,points_for,points_against,mov,srs,osrs,dsrs,playoff_result,final_round,playoff_wins,total_wins_incl_playoffs
+Buffalo Bills,AFC,East,12,5,525,368,9.2,8.1,7.8,0.3,ConfChamp,3,2,14
+Miami Dolphins,AFC,East,9,8,471,345,1.9,-1.1,-0.4,1.5,Missed,0,0,9
+New England Patriots,AFC,East,6,11,295,409,-7.5,-5.2,-4.3,-0.9,Missed,0,0,6
+New York Jets,AFC,East,7,10,333,364,-2.0,-2.8,-3.5,0.7,Missed,0,0,7
+Baltimore Ravens,AFC,North,12,5,506,518,1.2,9.9,8.0,1.9,Div,2,1,13
+Cleveland Browns,AFC,North,8,9,401,423,-1.4,2.7,2.1,0.6,Missed,0,0,8
+Pittsburgh Steelers,AFC,North,9,8,354,398,-2.6,0.4,-0.3,0.7,WC,1,0,9
+Cincinnati Bengals,AFC,North,10,7,441,410,1.8,2.9,2.4,0.5,Missed,0,0,10
+Houston Texans,AFC,South,9,8,375,382,-0.5,1.6,0.9,0.7,WC,1,0,9
+Indianapolis Colts,AFC,South,8,9,389,421,-2.3,-0.5,0.3,-0.8,Missed,0,0,8
+Jacksonville Jaguars,AFC,South,9,8,380,392,-0.8,0.4,1.0,-0.6,Missed,0,0,9
+Tennessee Titans,AFC,South,6,11,289,398,-6.8,-4.4,-5.1,0.7,Missed,0,0,6
+Kansas City Chiefs,AFC,West,12,5,382,356,3.5,7.0,4.2,2.8,SBLoss,4,3,15
+Los Angeles Chargers,AFC,West,8,9,398,412,-0.9,1.2,1.8,-0.6,WC,1,0,8
+Denver Broncos,AFC,West,8,9,343,406,-3.7,-2.5,-1.7,-0.8,Missed,0,0,8
+Las Vegas Raiders,AFC,West,7,10,332,401,-4.1,-3.0,-2.1,-0.9,Missed,0,0,7
+Philadelphia Eagles,NFC,East,14,3,482,463,10.9,7.0,3.0,4.7,SBWin,5,3,17
+Dallas Cowboys,NFC,East,10,7,446,377,4.1,3.9,4.0,-0.1,Div,2,1,11
+Washington Commanders,NFC,East,12,5,385,391,-0.9,5.7,4.9,-1.2,ConfChamp,3,2,14
+New York Giants,NFC,East,5,12,293,425,-7.8,-6.0,-5.0,-1.0,Missed,0,0,5
+Detroit Lions,NFC,North,15,2,564,342,13.1,10.7,13.8,-3.1,Div,2,1,16
+Green Bay Packers,NFC,North,10,7,421,404,1.0,1.5,0.9,0.6,WC,1,0,10
+Minnesota Vikings,NFC,North,7,10,350,427,-4.5,-1.9,-2.1,0.2,Missed,0,0,7
+Chicago Bears,NFC,North,6,11,310,398,-5.1,-3.8,-2.6,-1.2,Missed,0,0,6
+Tampa Bay Buccaneers,NFC,South,10,7,402,379,1.4,1.6,0.8,0.8,Div,2,1,11
+Atlanta Falcons,NFC,South,7,10,339,391,-3.1,-1.4,-0.8,-0.6,Missed,0,0,7
+New Orleans Saints,NFC,South,9,8,374,369,-0.3,0.9,1.0,-0.1,Missed,0,0,9
+Carolina Panthers,NFC,South,4,13,248,402,-9.6,-8.1,-7.0,-1.1,Missed,0,0,4
+San Francisco 49ers,NFC,West,11,6,435,401,2.0,4.8,3.2,1.6,Div,2,1,12
+Seattle Seahawks,NFC,West,9,8,388,400,-0.7,1.3,1.1,0.2,Missed,0,0,9
+Los Angeles Rams,NFC,West,8,9,382,420,-2.2,-0.5,0.3,-0.8,WC,1,0,8
+Arizona Cardinals,NFC,West,5,12,309,432,-7.5,-5.6,-4.7,-0.9,Missed,0,0,5
