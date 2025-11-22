@@ -14,19 +14,12 @@ Data Sources
 • PFF WAR (for external benchmarking)
 • Manual postseason win results (2024)
 
-Seasons covered: 2021–2024
-
-⸻
-
 Methodology Summary
 
 EPA-based play credit
 
 • Each offensive play produces or loses expected points
-• Credit is assigned based on involvement roles:
-	•	QB: passing/rushing on scrambles and designed runs
-	•	WR/TE/RB: targeted or responsible ball carrier
-	•	Negative credit is applied for turnovers + failed plays
+• Credit is assigned based on involvement roles
 
 Replacement baselines per position
 
@@ -41,3 +34,4 @@ Validation + Diagnostics
 
 Author: Anokh Palakurthi
 Special thanks to Claude/Sonnet 4.5 for helping me jump into programming
+
