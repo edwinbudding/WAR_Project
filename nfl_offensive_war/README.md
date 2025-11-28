@@ -4,7 +4,7 @@ Overview
 
 This project develops a Wins Above Replacement (WAR) framework for NFL offenses, using play-by-play Expected Points Added (EPA) 
 Using EPA, I estimate how individual players contribute to team success in terms of 'wins abve replacement" 
-This is done for the 2021-2024 seasons
+This is done for the 2021-2024 seasons.
 
 Data Sources
 
@@ -32,6 +32,7 @@ Author: Anokh Palakurthi
 Special thanks to Claude/Sonnet 4.5 for helping me jump into programming.
 
 NOTE: Because of the sheer size of play by play data, as well as the CSVs/plots I've built from this project, I cannot share all of them inside GitHub - if you want a CSV, just email me or contact me about it. 
+
 
 
 
