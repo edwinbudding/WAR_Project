@@ -29,7 +29,10 @@ Validation + Diagnostics
 • AV vs Wins regressions as point of comparison
 
 Author: Anokh Palakurthi
-Special thanks to Claude/Sonnet 4.5 for helping me jump into programming
+Special thanks to Claude/Sonnet 4.5 for helping me jump into programming.
+
+NOTE: Because of the sheer size of play by play data, as well as the CSVs/plots I've built from this project, I cannot share all of them inside GitHub - if you want a CSV, just email me or contact me about it. 
+
 
 
 
