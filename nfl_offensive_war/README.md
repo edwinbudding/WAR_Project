@@ -4,8 +4,8 @@ Overview
 
 This project develops a Wins Above Replacement (WAR) framework for NFL offenses, using play-by-play Expected Points Added (EPA) 
 Using EPA, I estimate how individual players contribute to team success in terms of 'wins abve replacement" 
-This is largely still a work in progress, but so far I have completed calculating WAR for QBs/RBs/WRs/TEs
-Offensive linemen still a WIP as are defensive players
+This is largely still a work in progress, but so far I have completed calculating WAR for QBs/RBs/WRs/TEs/OLs
+Defensive Players and Special Teams TBD
 
 Data Sources
 
@@ -34,4 +34,5 @@ Validation + Diagnostics
 
 Author: Anokh Palakurthi
 Special thanks to Claude/Sonnet 4.5 for helping me jump into programming
+
 
