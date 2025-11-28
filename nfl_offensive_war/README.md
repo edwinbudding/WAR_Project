@@ -4,26 +4,22 @@ Overview
 
 This project develops a Wins Above Replacement (WAR) framework for NFL offenses, using play-by-play Expected Points Added (EPA) 
 Using EPA, I estimate how individual players contribute to team success in terms of 'wins abve replacement" 
-This is largely still a work in progress, but so far I have completed calculating WAR for QBs/RBs/WRs/TEs/OLs
-Defensive Players and Special Teams TBD
+This is done for the 2021-2024 seasons
 
 Data Sources
 
 • nflfastR / nflplayR play-by-play (via nfl_data_py)
 • Pro Football Reference (player metadata + AV)
 • PFF WAR (for external benchmarking)
-• Manual postseason win results (2024)
 
 Methodology Summary
-
-EPA-based play credit
 
 • Each offensive play produces or loses expected points
 • Credit is assigned based on involvement roles
 
 Replacement baselines per position
 
-• Modeled using bottom 25 percentile performance pools
+• Modeled using bottom 25 percentile performance pools and customized snap counts
 • Standardized to 1 WAR ≈ 1 team win over a season
 
 Validation + Diagnostics
@@ -34,5 +30,6 @@ Validation + Diagnostics
 
 Author: Anokh Palakurthi
 Special thanks to Claude/Sonnet 4.5 for helping me jump into programming
+
 
 
