@@ -1,0 +1,137 @@
+DEFENSIVE WAR MODEL SUMMARY (v23 — WITH CB ROLE ADJUSTMENT)
+======================================================================
+
+KEY CHANGES IN v23:
+  - CB Role Adjustment based on snap share:
+      CB1 (>40% of team CB snaps): 1.15x
+      CB2 (25%-40%): 1.00x
+      CB3 (<25%): 0.90x
+  - Fixes 'CB1 penalized for tough assignments' problem
+
+PREVIOUS CHANGES (v22):
+  - Position-specific regression toward mean:
+      CB: 65%, S: 60%, LB: 55%, IDL: 50%, EDGE: 45%
+  - Reduced final WAR divisor from 5.5 to 4.5
+
+METHODOLOGY:
+  1. Two-bucket structure: Pass Defense (69%) + Run Defense (31%)
+  2. Coverage efficiency: Lower yards/snap = higher WAR share
+  3. CB Role Adjustment: CB1s boosted, CB3s reduced
+  4. Team WAR regressed 50% toward league mean
+  5. Position multipliers applied within buckets
+  6. Position-specific regression (CBs more, EDGE less)
+  7. Role-specific replacement levels
+
+PASS DEFENSE ALLOCATION (69% of total):
+  coverage_snaps: 35%
+  yards_efficiency: 25%
+  pass_break_ups: 15%
+  sacks: 11%
+  hits: 2%
+  hurries: 2%
+  interceptions: 10%
+
+RUN DEFENSE ALLOCATION (31% of total):
+  stops: 64%
+  tackles_for_loss: 27%
+  forced_fumbles: 9%
+
+POSITION REGRESSION FACTORS:
+  CB: 65% toward mean
+  S: 60% toward mean
+  LB: 55% toward mean
+  UNKNOWN: 55% toward mean
+  HYBRID: 55% toward mean
+  IDL: 50% toward mean
+  EDGE: 45% toward mean
+
+POSITION MULTIPLIERS:
+  Run Defense: EDGE 1.07x, IDL 1.00x, LB 0.21x, CB/S 0.00x
+  Coverage:    CB 1.00x, S 0.94x, LB 0.81x, EDGE/IDL 0.50x
+
+
+POSITIONAL SUMMARY:
+Position  Count  Mean WAR  Median WAR  Std WAR   Min WAR  Max WAR  Avg WAR/700
+    EDGE    697  0.175394    0.105152 0.260685 -0.547247 1.499294     0.235432
+     IDL    754  0.104454    0.066114 0.169715 -0.488888 1.138048     0.151327
+      LB    551  0.123098    0.059378 0.189533 -0.433331 0.993058     0.127128
+      CB    744  0.128172    0.070776 0.193783 -0.632994 1.100831     0.135371
+       S    547  0.147754    0.098260 0.210758 -0.503436 0.962834     0.147956
+
+AVERAGE BUCKET WAR BY POSITION:
+Position  Avg Pass Def  Avg Run Def
+    EDGE      0.229105     0.148446
+     IDL      0.211977     0.115856
+      LB      0.277846     0.071663
+      CB      0.334593     0.056289
+       S      0.344902     0.057506
+
+TOP 25 DEFENSIVE WAR:
+            player  season team role  snap_counts_defense  yards_per_cov_snap  pass_defense_war  run_defense_war  def_war  war_per_700
+     Myles Garrett    2023  CLE EDGE                  844            1.000000          0.807350         0.894102 1.499294     1.243490
+         Nick Bosa    2022   SF EDGE                  898            0.000000          0.902096         0.732911 1.432849     1.116920
+   Carl Granderson    2023   NO EDGE                  874            0.000000          0.710022         0.878192 1.386056     1.110113
+       Maxx Crosby    2023   LV EDGE                 1080            0.000000          0.690072         0.816134 1.304048     0.845216
+    Cameron Jordan    2021   NO EDGE                  831            0.000000          0.738281         0.759435 1.295558     1.091325
+     Matthew Judon    2022   NE EDGE                  858            0.383562          0.715914         0.670547 1.184304     0.966215
+  Nnamdi Madubuike    2023  BAL  IDL                  849            0.000000          0.799000         0.562426 1.138048     0.938320
+ Marshon Lattimore    2021   NO   CB                  999            1.346875          1.307252         0.056289 1.100831     0.771353
+      Aaron Donald    2021  LAR  IDL                 1261            0.000000          0.587315         0.732800 1.096736     0.608815
+ Jonathan Greenard    2024  MIN EDGE                  969            0.521277          0.544637         0.742576 1.085055     0.783838
+     Micah Parsons    2022  DAL EDGE                 1062            0.421053          0.675938         0.572014 1.045794     0.689318
+         T.J. Watt    2023  PIT EDGE                  930            1.910714          0.652675         0.570331 1.020848     0.768380
+ Andrew Van Ginkel    2024  MIN EDGE                  973            0.962264          0.634993         0.580450 1.013286     0.728983
+  Marcus Davenport    2021   NO EDGE                  437            0.000000          0.586922         0.609626 0.994390     1.592845
+  Jermaine Johnson    2023  NYJ EDGE                  748            0.000000          0.627679         0.568584 0.994106     0.930313
+   Quincy Williams    2023  NYJ   LB                 1092            0.895833          0.966352         0.253118 0.993058     0.636576
+  Quinnen Williams    2023  NYJ  IDL                  778            0.000000          0.527733         0.662991 0.967346     0.870363
+     Kyle Hamilton    2023  BAL    S                 1065            0.457602          1.131422         0.086066 0.962834     0.632849
+      Roquan Smith    2023  BAL   LB                 1192            0.762759          0.982542         0.197821 0.953951     0.560206
+  Jadeveon Clowney    2023  BAL EDGE                  747            0.772727          0.559298         0.585364 0.942504     0.883203
+ DeMarcus Lawrence    2022  DAL EDGE                  787            0.000000          0.457952         0.684048 0.939843     0.835947
+Martin Emerson Jr.    2023  CLE   CB                  897            0.879859          1.136374         0.056289 0.929953     0.725716
+        Geno Stone    2023  BAL    S                 1000            0.287591          1.123751         0.054877 0.923974     0.646782
+        Von Miller    2021  LAR EDGE                  939            0.434783          0.465801         0.656078 0.919722     0.685628
+      Trevon Diggs    2021  DAL   CB                 1078            1.572901          1.114390         0.056289 0.907969     0.589590
+
+TOP 5 BY ROLE:
+
+EDGE:
+         player  season team  def_war
+  Myles Garrett    2023  CLE 1.499294
+      Nick Bosa    2022   SF 1.432849
+Carl Granderson    2023   NO 1.386056
+    Maxx Crosby    2023   LV 1.304048
+ Cameron Jordan    2021   NO 1.295558
+
+IDL:
+          player  season team  def_war
+Nnamdi Madubuike    2023  BAL 1.138048
+    Aaron Donald    2021  LAR 1.096736
+Quinnen Williams    2023  NYJ 0.967346
+      Zach Allen    2024  DEN 0.765697
+       Ed Oliver    2021  BUF 0.735924
+
+LB:
+                 player  season team  def_war
+        Quincy Williams    2023  NYJ 0.993058
+           Roquan Smith    2023  BAL 0.953951
+          Patrick Queen    2023  BAL 0.871104
+          Demario Davis    2023   NO 0.846212
+Jeremiah Owusu-Koramoah    2023  CLE 0.836056
+
+CB:
+            player  season team  def_war
+ Marshon Lattimore    2021   NO 1.100831
+Martin Emerson Jr.    2023  CLE 0.929953
+      Trevon Diggs    2021  DAL 0.907969
+   Charvarius Ward    2022   SF 0.883072
+     Paulson Adebo    2023   NO 0.870413
+
+S:
+          player  season team  def_war
+   Kyle Hamilton    2023  BAL 0.962834
+      Geno Stone    2023  BAL 0.923974
+ Talanoa Hufanga    2022   SF 0.889502
+    Jordan Poyer    2021  BUF 0.821190
+Jordan Whitehead    2023  NYJ 0.817856

@@ -1,0 +1,11 @@
+bucket,metric,weight_in_bucket,weight_total
+pass_defense,coverage_snaps,0.35,0.24149999999999996
+pass_defense,yards_efficiency,0.25,0.1725
+pass_defense,pass_break_ups,0.15,0.1035
+pass_defense,sacks,0.11,0.0759
+pass_defense,hits,0.02,0.0138
+pass_defense,hurries,0.02,0.0138
+pass_defense,interceptions,0.1,0.06899999999999999
+run_defense,stops,0.64,0.1984
+run_defense,tackles_for_loss,0.27,0.08370000000000001
+run_defense,forced_fumbles,0.09,0.027899999999999998
